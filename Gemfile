@@ -1,14 +1,8 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-# gem 'jekyll'
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
 
-group :jekyll_plugins do
-  gem 'jekyll-gist'
-  gem 'jekyll-paginate'
-  gem "jekyll-asciidoc"
-end
 
-gem 'asciidoctor', '~> 1.5.4'
-gem 'coderay', '1.1.1'
-
+gem "webrick", "~> 1.7"

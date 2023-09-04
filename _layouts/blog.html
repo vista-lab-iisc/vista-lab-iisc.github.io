@@ -1,16 +1,33 @@
----
-layout: default
-format: blog-index
-# Don't index these pages dear Google.
-noindex: true
----
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="home" class="blog-index">
+
+{% include browser-upgrade.html %}
+
+{% include nav_cleanblog.html %}
+
+{% include header-home.html %}
+
+<div id="main" role="main">
+
 <div class="row">
-	<div class="medium-8 columns t30">
-		{% include _pagination.html %}
-	</div><!-- /.medium-7.columns -->
+    {{ content }}
+</div>
 
+</div><!-- /#main -->
 
-	<div class="medium-4 columns t30">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-5.columns -->
-</div><!-- /.row -->
+<div class="footer-wrapper">
+    {% include footer.html %}
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}
+
+</body>
+</html>

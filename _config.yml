@@ -1,87 +1,42 @@
-title:            Yi-Xin Liu
-description:      "Prof. Yi-Xin Liu research group homepage at Fudan University."
-url: http://www.yxliu.group
-urlimg: '/images/'
-header-img: images/homepage.jpg
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Comments powered by utteranc.es
-utterances: "liuyxpp/liuyxpp.github.io"
+# Site settings
+title: The Allan Lab
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Website of the AllanLab.
+baseurl: ""
+url: ""
 
-reading_time: true
-word_count: true
-words_per_minute: 100
-excerpt_separator: "<!--more-->"
+include:
+  - .htaccess
+  - _pages
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Main author of the website
-# See > authors.yml
-author: lyx
-
-# Owner/author information
-owner:
-  name:           Yi-Xin Liu
-  avatar:         avatar.jpg
-  bio:            "Dr. Yi-Xin Liu is a polymer physicist working at Fudan University since 2012. Before that, he is a postdoctoral fellow at Fudan University since 2009. He received his PhD at 2009 from Peking University and BS at 2004 from Nanjing University. He has spent two years from 2014 to 2016 at University of California, Santa Barbara in Prof. Glenn H. Fredrickson's group as a visiting researcher."
-  email: lyx@fudan.edu.cn
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: lyxfudan
-  facebook:
-  github: liuyxpp
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
-
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-31783224-1  # Analytics Property ID
-google_verify: vCNYuIbRPqv4coJvcqQglEsd4IBd9p4cP0AdERyG86w  # Webmaster
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-future: true
-highlighter: rouge
-markdown: kramdown
 sass:
   sass_dir: _sass
-  style: compressed
 
-# http://jekyllrb.com/docs/permalinks/
-permalink: /:year/:month/:title  #/:categories/:title/
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-# Amount of post to show on home page
-paginate: 5
-paginate_path: "blog/page:num/"
 
+
+# Markdown Processing
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    formatter: Rouge::Formatters::HTMLLineTable
-    # line_numbers: true # this will make inline code broken
-    # line_table: true
-    # css_class: ''
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      output: markdown
-    default_lang: text
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..3
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links

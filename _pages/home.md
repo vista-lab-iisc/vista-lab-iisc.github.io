@@ -1,13 +1,14 @@
 ---
-title: "Allan Lab - Home"
+title: "VISTA Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+# excerpt: "VISTA Lab at IISc Bangalore &rarr; LMU."
+excerpt: "VISTA Lab at IISc, Bangalore"
 sitemap: false
 permalink: /
 ---
 
-**News: Our group will move to LMU Munich!** During the next two years, we will build up a group at LMU and we will slowly move our instruments to Munich. We will be looking for PhD students, sub-group leaders, postdocs, engineering/technical stuff, and an administrative assistant. Please contact me if you are interested.
-More details to follow.
+<!-- **News: Our group will move to LMU Munich!** During the next two years, we will build up a group at LMU and we will slowly move our instruments to Munich. We will be looking for PhD students, sub-group leaders, postdocs, engineering/technical stuff, and an administrative assistant. Please contact me if you are interested.
+More details to follow. -->
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >

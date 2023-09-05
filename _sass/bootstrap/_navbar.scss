@@ -30,6 +30,7 @@
 // styling of responsive aspects.
 
 .navbar-header {
+  background-color: #ffbf00; /* Adding the new background color */
   @include clearfix;
 
   @media (min-width: $grid-float-breakpoint) {

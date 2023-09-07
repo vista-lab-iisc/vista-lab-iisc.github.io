@@ -100,6 +100,6 @@ permalink: /team/
 
 ## Alumni
 
-## Former visitors, BSc/ MSc students
+## Former visitors
 
 ## Administrative Support

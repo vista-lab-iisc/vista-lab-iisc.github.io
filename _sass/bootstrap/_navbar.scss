@@ -400,10 +400,13 @@
 .navbar-default {
   // background-color: $navbar-default-bg;
   background-color: #ffbf00; /* Adding the new background color */
-  border-color: $navbar-default-border;
+  // border-color: $navbar-default-border;
+  border-color: #C0C0C0;
+  // border-color: #FF0000;
 
   .navbar-brand {
-    color: $navbar-default-brand-color;
+    // color: $navbar-default-brand-color;
+    color: #040548;
     &:hover,
     &:focus {
       color: $navbar-default-brand-hover-color;
@@ -417,7 +420,8 @@
 
   .navbar-nav {
     > li > a {
-      color: $navbar-default-link-color;
+      // color: $navbar-default-link-color;
+      color: #040548;
 
       &:hover,
       &:focus {

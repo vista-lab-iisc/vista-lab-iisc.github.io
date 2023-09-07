@@ -503,6 +503,7 @@ a.list-group-item {
 
 .panel {
   border: 1px solid $navbar-default-border;
+  border-color: #C0C0C0;
   @include shadow();
 
   &-default {

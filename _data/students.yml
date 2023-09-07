@@ -1,25 +1,41 @@
-#- name:
-#  photo: rock.jpg
-#  info:
-#  email:
-#  number_educ:
-#  education1:
-#  education2:
-#  education3:
-#  education4:
+- name: Alokendu Mazumder
+  photo: Alok.jpg
+  info: PhD Student, PMRF Scholar, started Aug 2021
+  email: alokendum@iisc.ac.in
+  domains: Deep unsupervised learning, Low rank approximation, Representation learning.
 
-- name: Ilse Kuijf 
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+- name: Paritosh Tiwari
+  photo: paritosh.jpg
+  info: PhD Student, started Aug 2022
+  email: paritosht@iisc.ac.in
+  domains: Clustering, Unsupervised Learning and Data Analytics.
 
-- name: Tessa Van der Ent
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
+- name: Tirthajit Baruah
+  photo: tb.jpeg
+  info: PhD Student, started Aug 2023
+  email: tirthajitb@iisc.ac.in
+  domains: AI for healthcare, Medical image processing, Computer vision, Representation learning.
 
+- name: Akash Agrawal
+  photo: akash.jpg
+  info: M.Tech, started Aug 2021
+  email: akashagrawa1@iisc.ac.in
+  domains: Supervised/Unsupervised ML, Computer Vision, Deep Learning.
 
+- name: Sudarshan Bandyopadhyay
+  photo: sb.jpeg
+  info: M.Tech, started Aug 2021
+  email: sudarshanban@iisc.ac.in
+  domains: Unsupervised Learning, Edge AI.
+
+- name: Piyush Kumar
+  photo: piyush.jpg
+  info: M.Tech, started Aug 2021
+  email: piyushkumar2@iisc.ac.in
+  domains: Representation learning.
+
+- name: I Navin Kumar
+  photo: navin.jpg
+  info: M.Tech, started Aug 2021
+  email: navink@iisc.ac.in
+  domains: Facial Emotion Recognition using Non-Frontal Images.

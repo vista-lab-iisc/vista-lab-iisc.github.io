@@ -13,7 +13,7 @@
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: $navbar-margin-bottom;
   border: 1px solid transparent;
-  background-color: #ffbf00; /* Adding the new background color */
+  // background-color: #ffbf00; /* Adding the new background color */
 
   // Prevent floats from breaking the navbar
   @include clearfix;
@@ -30,7 +30,7 @@
 // styling of responsive aspects.
 
 .navbar-header {
-  background-color: #ffbf00; /* Adding the new background color */
+  // background-color: #ffbf00; /* Adding the new background color */
   @include clearfix;
 
   @media (min-width: $grid-float-breakpoint) {
@@ -128,7 +128,7 @@
 
 // Static top (unfixed, but 100% wide) navbar
 .navbar-static-top {
-  background-color: #ffbf00; /* Adding the new background color */
+  // background-color: #ffbf00; /* Adding the new background color */
   z-index: $zindex-navbar;
   border-width: 0 0 1px;
 
@@ -399,9 +399,10 @@
 // Default navbar
 .navbar-default {
   // background-color: $navbar-default-bg;
-  background-color: #ffbf00; /* Adding the new background color */
+  background-color: #6082B6; /* Adding the new background color */
   // border-color: $navbar-default-border;
-  border-color: #C0C0C0;
+  border-color: #E1D9D1;
+  // border-color: #C0C0C0;
   // border-color: #FF0000;
 
   .navbar-brand {

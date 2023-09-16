@@ -49,9 +49,10 @@
 .panel-footer {
   padding: $panel-footer-padding;
   // background-color: $panel-footer-bg;
-  background-color: #fdb128;
-  color: #040548;
-  border-top: 1px solid $panel-inner-border;
+  background-color: #171d25;
+  color: #E1D9D1;
+  // border-top: 1px solid $panel-inner-border;
+  border-top: 1px solid #E1D9D1;
   @include border-bottom-radius(($panel-border-radius - 1));
 }
 

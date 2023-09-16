@@ -73,5 +73,5 @@ We invite you to explore our website to learn more about our groundbreaking rese
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/IISc_Master_Seal_Black.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Colorful Artificial Intelligence Logo.png" style="width: 210px">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Colorful Artificial Intelligence Logo.png" style="width: 210px"> -->
 </figure>

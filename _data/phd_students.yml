@@ -1,0 +1,23 @@
+- name: Alokendu Mazumder
+  photo: Alok.jpg
+  info: PhD Student, PMRF Scholar, started Aug 2021
+  email: alokendum@iisc.ac.in
+  domains: Deep unsupervised learning, Low rank approximation, Representation learning.
+
+- name: Paritosh Tiwari
+  photo: paritosh.jpg
+  info: PhD Student, started Aug 2022
+  email: paritosht@iisc.ac.in
+  domains: Clustering, Unsupervised Learning and Data Analytics.
+
+- name: Tirthajit Baruah
+  photo: tb.jpeg
+  info: PhD Student, started Aug 2023
+  email: tirthajitb@iisc.ac.in
+  domains: AI for healthcare, Medical image processing, Computer vision, Representation learning.
+
+- name: Sourav Ranjan Saraf
+  photo: srs.jpg
+  info: PhD Student, started Aug 2023
+  email: souravr@iisc.ac.in
+  domains: Deep Learning

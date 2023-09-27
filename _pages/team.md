@@ -6,11 +6,11 @@ sitemap: false
 permalink: /team/
 ---
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
-## Principal Investigator
+## Lab Head
 {% assign number_printed = 0 %}
-{% for member in site.data.pi %}
+{% for member in site.data.lab_head %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -38,9 +38,9 @@ permalink: /team/
 </div>
 {% endif %}
 
-## Postdocs
+## Research Staff
 {% assign number_printed = 0 %}
-{% for member in site.data.postdoc %}
+{% for member in site.data.staff %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -68,9 +68,9 @@ permalink: /team/
 </div>
 {% endif %}
 
-## Students
+## PhD Students
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.phd_students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -98,8 +98,16 @@ permalink: /team/
 </div>
 {% endif %}
 
-## Alumni
+## Master Students
+
+{% for member in site.data.mtech_students %} <br>{{ member.name }}<br /> {% endfor %}
+
+## Interns
+
+
+
+<!-- ## Alumni
 
 ## Former visitors
 
-## Administrative Support
+## Administrative Support -->

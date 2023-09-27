@@ -1,0 +1,11 @@
+- name: Dr. Vishwajeet Pattanaik
+  photo: VPattanaik.jpg
+  info: Specialist Scientist
+  email: vishwajeetp@iisc.ac.in
+  domains: Ubiquitous Computing, Collective Intelligence, Human-Computer Interaction.
+
+- name: Mayesh Mohapatra
+  photo: mayesh.jpg
+  info: Project Associate
+  email: mayeshm@iisc.ac.in
+  domains: Computer Vision, 3D-Object Detection and Tracking, GANs.

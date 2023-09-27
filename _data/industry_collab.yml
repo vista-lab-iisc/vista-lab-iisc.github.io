@@ -1,0 +1,8 @@
+- name: Volvo
+  logo: volvo_logo.png
+
+- name: Bosch
+  logo: bosch_logo.png
+
+- name: Tata Elxsi
+  logo: tat_logo.png

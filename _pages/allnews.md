@@ -1,7 +1,6 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
 sitemap: false
 permalink: /allnews.html
 ---
@@ -10,5 +9,10 @@ permalink: /allnews.html
 
 {% for article in site.data.news %}
 <p>{{ article.date }} <br>
-<em>{{ article.headline | markdownify}}</em></p>
+<em>{{ article.headline }}</em></p>
 {% endfor %}
+
+<!-- {% for article in site.data.news %}
+{{ article.date | markdownify }}
+{{ article.headline | markdownify }}
+{% endfor %} -->

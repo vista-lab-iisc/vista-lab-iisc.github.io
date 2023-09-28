@@ -72,12 +72,16 @@ We invite you to explore our website to learn more about our groundbreaking rese
 
 <style>
   .logo:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 35px; /* This will be applied to every logo except the last one */
+  }
+  .logo:first-child {
+    margin-right: 0px; /* This will override the above style for the first logo only */
   }
 </style>
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/rbccps.png" class="logo" style="width: 115px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/rbccps.png" class="logo" style="width: 77px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/rbccps4.png" class="logo" style="width: 200px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/iisc_logo.png" class="logo" style="width: 120px;">
   <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/isro_logo.png" class="logo" style="width: 120px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/volvo_logo.png" class="logo" style="width: 120px;">

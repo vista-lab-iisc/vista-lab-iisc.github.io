@@ -1,0 +1,19 @@
+- name: DST
+  logo: dst_logo.png
+  width: "280px"
+  height: "auto"
+
+- name: ISRO
+  logo: isro_logo.png
+  width: "130px"
+  height: "auto"
+
+- name: SERB
+  logo: serb_logo.png
+  width: "170px"
+  height: "auto"
+
+- name: BEL
+  logo: bel_logo.png
+  width: "280px"
+  height: "auto"

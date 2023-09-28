@@ -1,0 +1,62 @@
+---
+layout: default
+title: VISTA Lab - Collaborations
+permalink: /collaborations/
+---
+
+<div class="page-content">
+  <!-- <h1>{{ page.title }}</h1> -->
+
+  <section>
+    <h2>Industry Collaborations</h2>
+    <div class="collaboration-grid">
+      {% for collaboration in site.data.industry_collab %}
+        <div class="collaboration-item">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/collab/{{ collaboration.logo }}" alt="{{ collaboration.name }}" style="width: {{ collaboration.width }}; height: {{ collaboration.height }};">
+          <!-- <p>{{ collaboration.name }}</p> -->
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>Government Collaborations</h2>
+    <div class="collaboration-grid">
+      {% for collaboration in site.data.gov_collab %}
+        <div class="collaboration-item">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/collab/{{ collaboration.logo }}" alt="{{ collaboration.name }}" style="width: {{ collaboration.width }}; height: {{ collaboration.height }};">
+          <!-- <p>{{ collaboration.name }}</p> -->
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <!-- <h2>University Collaborations</h2> -->
+    <div class="collaboration-grid">
+      {% for collaboration in site.data.university_collaborations %}
+        <div class="collaboration-item">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/collaboration/{{ collaboration.logo }}" alt="{{ collaboration.name }}">
+          <p>{{ collaboration.name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<style>
+  .collaboration-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .collaboration-item {
+    flex: 1 0 24%;
+    margin: 1%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .collaboration-item img {
+    width: 100%;
+    height: auto;
+  }
+</style>

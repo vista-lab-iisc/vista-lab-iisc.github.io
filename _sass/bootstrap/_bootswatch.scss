@@ -450,7 +450,8 @@ label {
 // Containers =================================================================
 
 .well {
-  border: 1px solid $navbar-default-border;
+  // border: 1px solid $navbar-default-border;
+  border: 1px solid #212121;
   @include box-shadow(inset 0 2px 0 rgba(0, 0, 0, 0.05));
 }
 
@@ -503,12 +504,14 @@ a.list-group-item {
 
 .panel {
   border: 1px solid $navbar-default-border;
-  border-color: #C0C0C0;
-  @include shadow();
+  // border-color: #C0C0C0;
+  border-color: #1E1C1C;
+  // @include shadow();
 
   &-default {
     .close {
       color: $text-color;
+      // color: #1E1C1C;
     }
   }
 }

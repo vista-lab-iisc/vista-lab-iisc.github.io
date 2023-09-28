@@ -49,11 +49,25 @@
 .panel-footer {
   padding: $panel-footer-padding;
   // background-color: $panel-footer-bg;
-  background-color: #171d25;
-  color: #E1D9D1;
+  background-color: #1E1C1C;
+  // color: #E1D9D1;
+  color: #989898;
+  font-size: 13px;
   // border-top: 1px solid $panel-inner-border;
-  border-top: 1px solid #E1D9D1;
-  @include border-bottom-radius(($panel-border-radius - 1));
+  // border-top: 1px solid #E1D9D1;
+  // @include border-bottom-radius(($panel-border-radius - 1));
+  @include border-bottom-radius((0));
+
+  // Create a pseudo-element for the top border
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 10%; // Adjust the value as needed to control the starting point of the border
+  //   right: 10%; // Adjust the value as needed to control the ending point of the border
+  //   border-top: 1px solid #989898; // Set the color of the border
+  //   height: 0;
+  // }
 }
 
 

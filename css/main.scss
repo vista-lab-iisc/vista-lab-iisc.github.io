@@ -17,9 +17,12 @@ img { margin-bottom: 24px;
 // }
 body {
 	padding-top: 70px;
-	background-color: #171d25; /* Adding the new background color */
-	// color: #FFFFFF;
-	color: #E1D9D1;
+	// background-color: #171d25; /* Adding the new background color */
+	// background-color: #1B1212;
+	background-color: #1E1C1C;
+	color: #FFFFFF;
+	// color: #E1D9D1;
+	// color: #A9A9A9;
 }
 
 figcaption {
@@ -70,7 +73,8 @@ firstp {
 }
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
+// #gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
+#gridid img { margin: 16px 22px 6px 0; border-radius:10%}
 #homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 24px; }
@@ -101,6 +105,23 @@ firstp {
 
 h1, h2, h3, h4, h5, h6 {
     // color: #fdb128; /* Setting the new font color for headings */
-	color: #88bde9;
+	// color: #FFFFFF;
+	color: #FF4545;
 }
+
+a {
+	color: #989898; /* Replace with your desired color */
+  }
+
+z {
+	color: #FF4545; /* Replace with your desired color */
+  }
+y {
+	color: #FFFFFF; /* Replace with your desired color */
+  }
+  
+a:hover,
+a:focus {
+	color: #FF4545; /* Replace with your desired hover/focus color */
+  }
 

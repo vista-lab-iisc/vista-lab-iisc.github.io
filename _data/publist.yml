@@ -1,12 +1,32 @@
-- title: "Single-electron charge transfer into putative Majorana and trivial modes in individual vortices"
-  image: imageaward_edited.png
-  description: Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.
-  authors: J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan
+- title: "Maximum entropy-based auto drift correction using high-and low-precision sensors."
+  image: sensor.png
+  description: We developed an automatic sensor drift detection and correction technique by leveraging a Bayesian maximum entropy-based estimation method that incorporates measurement errors/uncertainties of low-precision sensors to estimate drift, with Kalman filtering to track and correct the estimated drift from sensor measurements.
+  authors: Rathore, P., Kumar, D., Rajasegarar, S., Palaniswami, M.
   link:
-    url: https://www.nature.com/articles/s41467-023-39109-w
-    display: Nature Communications 4, 3341 (2023)
+    url: https://drive.google.com/file/d/1diK8oCD2W191zfCCt1nO-HyHZMTvosGX/view
+    display: ACM Transactions on Sensor Networks (TOSN), 13(3), 24.
   highlight: 1
-  news2: See [news item](https://www.universiteitleiden.nl/en/news/2023/06/new-method-to-find-majoranas-tested-for-the-first-time) by Michelle Willebrands
+  # news2: See [news item](https://www.universiteitleiden.nl/en/news/2023/06/new-method-to-find-majoranas-tested-for-the-first-time) by Michelle Willebrands
+
+- title: "A Scalable Framework for Trajectory Prediction."
+  image: traj.png
+  description:  A scalable framework was developed for short-term and long-term trajectory prediction, based on our novel big data clustering algorithm and Markov models, which can utilize a large number (in millions) of trajectories in a dense road network. The developed framework was tested on two real-life, large-scale, taxi trajectory datasets from the Beijing and Singapore road networks in our experiments.
+  authors: Rathore P., Kumar D., Rajasegarar S., Palaniswami M, Bezdek J. C.
+  link:
+    url: https://drive.google.com/file/d/1mIxCy1Pyuhw1W7s1bZERI1i1bOmd89cY/view
+    display: IEEE Transactions on Intelligent Transportation Systems. 
+  highlight: 1
+
+
+# - title: "Single-electron charge transfer into putative Majorana and trivial modes in individual vortices"
+#   image: imageaward_edited.png
+#   description: Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.
+#   authors: J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan
+#   link:
+#     url: https://www.nature.com/articles/s41467-023-39109-w
+#     display: Nature Communications 4, 3341 (2023)
+#   highlight: 1
+#   news2: See [news item](https://www.universiteitleiden.nl/en/news/2023/06/new-method-to-find-majoranas-tested-for-the-first-time) by Michelle Willebrands
 
 # - title: "Why shot noise does not generally detect pairing in mesoscopic superconducting tunnel junctions"
 #   image: imageaward_edited.png
@@ -17,14 +37,14 @@
 #     display: arXiv
 #   highlight: 0
 
-- title: "Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ"
-  image: BSCCOgap.png
-  description: Why does cuprate superconductivity break down at a certain doping level? Using scanning tunneling spectroscopy we find that an emerging metallic matrix inside the superconducting state is responsible for the overall reduction of Tc and the superfluid density, while leaving the gapsize unchanged. The formation of the matrix is tied to a pair breaking process violating a core principle of mean-field theories.
-  authors: WO Tromp, T Benschop, J-F Ge, I Battisti, KM Bastiaans, D Chatzopoulos, A Vervloet, S Smit, E van Heumen, MS Golden, Y Huang, T Kondo, Y Yin, JE Hoffman, MA Sulangi, J Zaanen, MP Allan
-  link:
-    url: https://www.nature.com/articles/s41563-023-01497-1
-    display: Nature Materials 22, 703 (2023)
-  highlight: 1
+# - title: "Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ"
+#   image: BSCCOgap.png
+#   description: Why does cuprate superconductivity break down at a certain doping level? Using scanning tunneling spectroscopy we find that an emerging metallic matrix inside the superconducting state is responsible for the overall reduction of Tc and the superfluid density, while leaving the gapsize unchanged. The formation of the matrix is tied to a pair breaking process violating a core principle of mean-field theories.
+#   authors: WO Tromp, T Benschop, J-F Ge, I Battisti, KM Bastiaans, D Chatzopoulos, A Vervloet, S Smit, E van Heumen, MS Golden, Y Huang, T Kondo, Y Yin, JE Hoffman, MA Sulangi, J Zaanen, MP Allan
+#   link:
+#     url: https://www.nature.com/articles/s41563-023-01497-1
+#     display: Nature Materials 22, 703 (2023)
+#   highlight: 1
 
 # - title: "Direct evidence for Cooper pairing without a spectral gap in a disordered superconductor above Tc"
 #   image: Pairs3.png

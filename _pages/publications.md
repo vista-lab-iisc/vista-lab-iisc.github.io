@@ -9,9 +9,9 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
+<!-- ## Highlights --><br/>
 
-**At the end of this page, you can find the [full list of publications](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).** <br/><br/>
+**At the end of this page, you can find the [full list of publications](#full-list-of-publications).** <br/><br/>
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -23,10 +23,11 @@ permalink: /publications/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<!-- <div class="col-sm-6 clearfix"> -->
+<div class="col-sm-12 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/{{ publi.image }}" class="img-responsive" width="50%" style="float: left" />
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
@@ -59,9 +60,11 @@ permalink: /publications/
 
 ## Full List of publications
 
+<br/>
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+<br/><br/>

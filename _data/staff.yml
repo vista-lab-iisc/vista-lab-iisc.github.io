@@ -1,16 +1,19 @@
 - name: Dr. Vishwajeet Pattanaik
   photo: VPattanaik.jpg
   info: Specialist Scientist
-  email: vishwajeetp@iisc.ac.in
-  domains: Ubiquitous Computing, Collective Intelligence, Human-Computer Interaction.
+  email: vishwajeetp[at]iisc[dot]ac[dot]in
+  domains: Machine Learning, Data Science, Image Processing, Ubiquitous Computing, Collective Intelligence, Human-Computer Interaction
+  projects: Modelling driving behaviour of Indian drivers using heavy-vehicle simulator, Investigating the effect of real-time alerts on drivers’ response and their driving behaviour, Simultaneous optimization towards smooth traffic flow in urban environments, Video analytics using unmanned aerial vehicles for miscellaneous object detection applications, Detection and characterization of speed bumps/potholes using smartphones, A self-supervised, visual-analytical approach for automatic detection of cyclonic events in satellite observations.
   linkedin:
   google_scholar:
   github:
+
 - name: Mayesh Mohapatra
   photo: mayesh.jpg
   info: Project Associate
-  email: mayeshm@iisc.ac.in
+  email: mayeshm[at]iisc[dot]ac[dot]in
   domains: Computer Vision, 3D-Object Detection and Tracking, GANs.
+  projects: Deep Learning Based Visual Analytic Approach for Automated Cyclone Detection.
   linkedin:
   google_scholar:
   github:

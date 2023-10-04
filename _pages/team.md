@@ -24,7 +24,7 @@ permalink: /team/
   <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}"/>
   <h4><y>{{ member.name }}</y></h4>
-  <i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
+  {{ member.info }}<br/> email: {{ member.email }}<br/>
   Research Interests: {{ member.domains }}<br/>
   <!-- <div class="member-links"> -->
   <a href="{{ member.website }}" target="_blank">
@@ -63,17 +63,18 @@ permalink: /team/
 <div class="col-sm-12 clearfix">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}"/>
 <h4><y>{{ member.name }}</y></h4>
-<i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
+{{ member.info }} <br>email: {{ member.email }}<br />
 Research Interests: {{ member.domains }}<br/>
+Projects: {{ member.projects }}<br/>
 <a href="{{ member.linkedin }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
 </a>
-<a href="{{ member.google_scholar }}" target="_blank">
+<!-- <a href="{{ member.google_scholar }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
 </a>
 <a href="{{ member.github }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
-</a>
+</a> -->
 </div>
 </div>
 {% endfor %}
@@ -86,7 +87,7 @@ Research Interests: {{ member.domains }}<br/>
 <div class="col-sm-12 clearfix">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}">
 <h4><y>{{ member.name }}</y></h4>
-<i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
+{{ member.info }} <br>email: {{ member.email }}<br />
 Research Interests: {{ member.domains }}<br/>
 <a href="{{ member.linkedin }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
@@ -117,12 +118,12 @@ Research Interests: {{ member.domains }}<br/>
 <a href="{{ member.linkedin }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
 </a>
-<a href="{{ member.google_scholar }}" target="_blank">
+<!-- <a href="{{ member.google_scholar }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
 </a>
 <a href="{{ member.github }}" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
-</a>
+</a> -->
 </div>
 </div>
 
@@ -130,8 +131,22 @@ Research Interests: {{ member.domains }}<br/>
 
 <br/>
 
+### Alumni
+
+{% for member in site.data.alumni %}
+
+<div class="row">
+<div class="col-sm-12 clearfix">
+{{ member.name }}<br/>
+Currently at: {{ member.company }}
+</div>
+</div>
+
+{% endfor %}
+
 <br/>
-### Interns
+
+<!-- ### Interns -->
 
 <style>
   .icon {

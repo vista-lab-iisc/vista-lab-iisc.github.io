@@ -1,7 +1,7 @@
 - name: Alokendu Mazumder
   photo: Alok.jpg
   info: PMRF Scholar, started Aug 2021
-  email: alokendum@iisc.ac.in
+  email: alokendum[at]iisc[dot]ac[dot]in
   domains: Deep unsupervised learning, Low rank approximation, Representation learning.
   linkedin:
   google_scholar:
@@ -10,7 +10,7 @@
 - name: Paritosh Tiwari
   photo: paritosh.jpg
   info: Started Aug 2022
-  email: paritosht@iisc.ac.in
+  email: paritosht[at]iisc[dot]ac[dot]in
   domains: Clustering, Unsupervised Learning and Data Analytics.
   linkedin: https://www.linkedin.com/in/paritosh-tiwari-101/
   google_scholar: https://scholar.google.com/citations?user=HlDP3CcAAAAJ&hl=en
@@ -19,7 +19,7 @@
 - name: Tirthajit Baruah
   photo: tb.jpeg
   info: Started Aug 2023
-  email: tirthajitb@iisc.ac.in
+  email: tirthajitb[at]iisc[dot]ac[]dotin
   domains: AI for healthcare, Medical image processing, Computer vision, Representation learning.
   linkedin:
   google_scholar:
@@ -28,7 +28,7 @@
 - name: Sourav Ranjan Saraf
   photo: srs.jpg
   info: Started Aug 2023
-  email: souravr@iisc.ac.in
+  email: souravr[at]iisc[dot]ac[dot]in
   domains: Deep Learning
   linkedin:
   google_scholar:

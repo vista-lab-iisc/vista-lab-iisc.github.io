@@ -12,3 +12,8 @@
   logo: tata_logo.png
   width: "200px"
   height: "auto"
+
+- name: Artpark
+  logo: artpark.png
+  width: "300px"
+  height: "auto"

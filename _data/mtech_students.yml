@@ -1,7 +1,67 @@
-- name: Akash Agrawal, Aug 2022
+# - name: Akash Agrawal, Aug 2022
 
-- name: Sudarshan Bandyopadhyay, Aug 2022
+# - name: Sudarshan Bandyopadhyay, Aug 2022
 
-- name: Piyush Kumar, Aug 2022
+# - name: Piyush Kumar, Aug 2022
 
-- name: I Navin Kumar, Aug 2022
+# - name: I Navin Kumar, Aug 2022
+
+- name: Akash Agrawal
+  photo: akash.jpg
+  info: Started Aug 2022
+  email: akashagrawa1[at]iisc[dot]ac[dot]in
+  domains: Supervised/Unsupervised ML, Computer Vision, Deep Learning
+  projects: Deep Learning Based Visual Analytic Approach for Automated Cyclone Detection.
+  linkedin: https://www.linkedin.com/in/akash-agrawal-059307143/
+  google_scholar:
+  github:
+
+- name: Sudarshan Bandyopadhyay
+  photo: sb.jpeg
+  info: Started Aug 2022
+  email: sudarshanban[at]iisc[dot]ac[dot]in
+  domains: Unsupervised Learning, Edge AI
+  projects: Learning based Intrusion Detection System for Autonomous Vehicles.
+  linkedin: https://www.linkedin.com/in/sudarshan-bandyopadhyay-11628a13a/
+  google_scholar:
+  github:
+
+- name: Piyush Kumar
+  photo: piyush.jpg
+  info: Started Aug 2022
+  email: piyushkumar2[at]iisc[dot]ac[dot]in
+  domains: Representation Learning
+  projects:
+  linkedin:
+  google_scholar:
+  github:
+
+- name: I Navin Kumar
+  photo: navin.jpg
+  info: Started Aug 2022
+  email: navink[at]iisc[dot]ac[dot]in
+  domains: Facial Emotion Recognition using Non-Frontal Images
+  projects:
+  linkedin:
+  google_scholar:
+  github:
+
+- name: B Srinath Achary
+  photo: srinath.jpg
+  info: Started Aug 2022
+  email: srinatha[at]iisc[dot]ac[dot]in
+  domains: Explainability in VAT/iVAT methods.
+  projects:
+  linkedin: https://www.linkedin.com/in/srinath99
+  google_scholar:
+  github:
+
+- name: Alice Laguri
+  photo: alice.jpg
+  info: Started Aug 2022
+  email: alicelaguri[at]iisc[dot]ac[dot]in
+  domains: iVAT with Isolation Kernel on various embeddings.
+  projects:
+  linkedin: https://www.linkedin.com/in/alice-laguri/
+  google_scholar:
+  github:

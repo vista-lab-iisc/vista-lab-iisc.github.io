@@ -56,95 +56,79 @@ permalink: /team/
 {% endif %}
 
 <br/>
+
 ### Research Staff
-{% assign number_printed = 0 %}
 {% for member in site.data.staff %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
-<!-- <div class="col-sm-6 clearfix"> -->
-<div class="col-sm-12 clearfix"> <!-- Changed from col-sm-6 to col-sm-12 -->
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}"/>
-  <h4><y>{{ member.name }}</y></h4>
-  <i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
-  Research Interests: {{ member.domains }}<br/>
-  <a href="{{ member.linkedin }}" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
-  </a>
-  <a href="{{ member.google_scholar }}" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
-  </a>
-  <a href="{{ member.github }}" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
-  </a>
+<div class="col-sm-12 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}"/>
+<h4><y>{{ member.name }}</y></h4>
+<i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
+Research Interests: {{ member.domains }}<br/>
+<a href="{{ member.linkedin }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
+</a>
+<a href="{{ member.google_scholar }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
+</a>
+<a href="{{ member.github }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
+</a>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
 </div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 <br/>
+
 ### PhD Students
-{% assign number_printed = 0 %}
 {% for member in site.data.phd_students %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
-<!-- <div class="col-sm-6 clearfix"> -->
-<div class="col-sm-12 clearfix"> <!-- Changed from col-sm-6 to col-sm-12 -->
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}"/>
-  <h4><y>{{ member.name }}</y></h4>
-  <i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
-  Research Interests: {{ member.domains }}<br/>
-  <!-- <div class="member-links"> -->
-  <a href="{{ member.linkedin }}" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
-  </a>
-  <a href="{{ member.google_scholar }}" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
-  </a>
-  <a href="{{ member.github }}" target="_blank">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
-  </a>
-  <!-- </div> -->
+<div class="col-sm-12 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}">
+<h4><y>{{ member.name }}</y></h4>
+<i>{{ member.info }} <br>email: <{{ member.email }}></i><br />
+Research Interests: {{ member.domains }}<br/>
+<a href="{{ member.linkedin }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
+</a>
+<a href="{{ member.google_scholar }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
+</a>
+<a href="{{ member.github }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
+</a>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 <br/>
+
 ### Master Students
 
-{% for member in site.data.mtech_students %} <br>{{ member.name }}<br /> {% endfor %}
+{% for member in site.data.mtech_students %}
+
+<div class="row">
+<div class="col-sm-12 clearfix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive member-img" alt="{{ member.name }}">
+<h4><y>{{ member.name }}</y></h4>
+{{ member.info }} <br>email: {{ member.email }}<br />
+Research Interests: {{ member.domains }}<br/>
+<a href="{{ member.linkedin }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/linkedin.png" alt="LinkedIn" class="icon">
+</a>
+<a href="{{ member.google_scholar }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/google.png" alt="Scholar" class="icon">
+</a>
+<a href="{{ member.github }}" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/icons/github.png" alt="GitHub" class="icon">
+</a>
+</div>
+</div>
+
+{% endfor %}
+
+<br/>
 
 <br/>
 ### Interns

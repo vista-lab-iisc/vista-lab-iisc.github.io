@@ -8,7 +8,8 @@ permalink: /
 ---
 
 <div class="single-image-container">
-<img src="{{ site.url }}{{ site.baseurl }}/images/ghidra3.png" alt="Ghidra" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/lab_logo/ghidra3.png" alt="Ghidra" />
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/lab_logo/vista_logo_1.png" alt="vista" /> -->
 </div>
 
 At the VISTA <z>(Visual-analytics, Intelligent Systems, and Applications)</z> Lab, we venture into the uncharted territories of data science, carving out novel pathways in the realms of unsupervised learning and clustering. Nestled in the vibrant academic environment of the Indian Institute of Science, our lab is a melting pot of innovation, where analytical rigor meets creative spontaneity.

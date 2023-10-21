@@ -8,7 +8,8 @@ permalink: /
 ---
 
 <div class="single-image-container">
-<img src="{{ site.url }}{{ site.baseurl }}/images/lab_logo/ghidra3.png" alt="Ghidra" />
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/lab_logo/ghidra3.png" alt="Ghidra" /> -->
+<img src="{{ site.url }}{{ site.baseurl }}/images/lab_logo/lab_logo_extended_cropped_final1.png" alt="logo" />
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/lab_logo/vista_logo_1.png" alt="vista" /> -->
 </div>
 
@@ -30,7 +31,9 @@ We invite you to explore our website to learn more about our groundbreaking rese
   .logo:first-child {
     margin-right: 0px; /* This will override the above style for the first logo only */
   }
-  .single-image-container img {
+  .single-image-container img { 
+        padding-top: 40px;  /* Adds space above the image */
+        padding-bottom: 50px;  /* Adds space below the image */
         max-width: 100%; /* Adjust as needed */
         height: auto; /* Maintains aspect ratio */
         display: block; /* Removes any default margins/paddings */

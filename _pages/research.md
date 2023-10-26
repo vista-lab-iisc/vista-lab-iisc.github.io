@@ -23,7 +23,19 @@ permalink: /research/
 
 The comprehensive research project is aimed at leveraging self-supervised deep learning techniques to enhance cyclone intensity classification and improve disaster management in the fields of geological and climate sciences. The project will involve the development of advanced Scientific Machine Learning models, and collaboration with the Indian Space Research Organisation (ISRO) to analyze meteorological data. The ultimate goal is to provide accurate predictions, enable effective decision-making, and contribute to scientific advancements in cyclone analysis and disaster mitigation.
 
-The increasing frequency and intensity of cyclonic events demand more accurate and timely predictions to enhance disaster management efforts. This research project aims to utilize the power of ML techniques to improve cyclone intensity classification, cyclone genesis forecast and cyclone tracking, enabling effective mitigation strategies in geological and climate sciences. Collaboration with ISRO will provide access to rich meteorological data for analysis and validation.
+The increasing frequency and intensity of cyclonic events demand more accurate and timely predictions to enhance disaster management efforts. This research project aims to utilize the power of ML techniques to improve cyclone intensity classification, cyclone genesis forecast and cyclone tracking, enabling effective mitigation strategies in geological and climate sciences. Collaboration with ISRO will provide access to rich meteorological data for analysis and validation.<br/><br/>
+
+<p>**Examining the Effects of ADAS on Driving Behaviour Under Indian Driving Conditions.**</p>
+
+![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
+
+The usefulness of ADAS or advanced driver warning systems under Heterogenous Disordered Trafiic (HDT) conditions is still not well understood in scientific literature. Too many ADAS warnings can have detrimental effects on drivers' behaviour, particularly when driving larger vehicles (like buses) under densely packed HDT conditions, like on Indian roads. This work will allow us to optimize ADAS for Indian driversand trafiic conditions, reducing driver fatigue and making the drivers more aware of their surroundings, thus improving the overall road safety of bus drivers. For BMTC (Bangalore Metropolitan Transport Corporation), this will allow them to understand the best ADAS warnings and modalities for their bus drivers.<br/><br/><br/><br/><br/>
+
+<p>**Development of an Integrated Trafiic and Heavy Vehicle Simulator (ITHVS) for Driver Behaviour and Safety Research in India.**</p>
+
+![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
+
+Simulators are recognised as effective tools for driver training around the globe. The proposed advanced Heavy Vehicle (HV) driving simulator can also be utilised for the same. Notably, features such as the realistic representation of Indian trafiic conditions, seamless two-way interaction, and capability to design and test scenarios concerned with intelligent transport systems that most current HV driving simulators lack will offer unprecedented oppotunities for realistic training for the BMTC drivers.
 
 <!-- **Scanning tunneling noise spectroscopy (STNS).** We have developed a novel cryogenic MHz amplifier that allows us to measure not only the average tunneling current, but also its fluctuation! This has many applications: one can detect the fluctuations of the electronic states, peculiar tunneling processes, and shot noise. We have used this instrument to discover charge trapping in the insulating layer of the cuprates, connected to the c-axis mystery, and to measure the doubling of the charge due to Andreev processes to the superfluid in a lead sample.
 

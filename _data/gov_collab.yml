@@ -17,3 +17,8 @@
   logo: bel_logo.png
   width: "280px"
   height: "auto"
+
+- name: Powergrid
+  logo: powergrid.png
+  width: "280px"
+  height: "auto"

@@ -129,3 +129,29 @@ a:focus {
 	color: #FF4545; /* Replace with your desired hover/focus color */
   }
 
+
+.project-entry {
+	display: flex;
+	margin-bottom: 40px; /* Adjust the space between project entries */
+}
+  
+.project-image {
+	flex: 0 0 250px; /* Adjust width of the image container */
+	margin-right: 20px; /* Adjust the space between the image and the text */
+}
+  
+.project-image img {
+	width: 100%;
+	height: auto;
+}
+  
+.project-description {
+	flex: 1; /* Takes up the remaining space */
+}
+
+.research-content {
+	padding-left: 0;
+	padding-right: 0;
+  }
+  
+

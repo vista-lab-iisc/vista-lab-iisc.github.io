@@ -19,52 +19,65 @@ permalink: /research/
 
 <p>**Real-Time Cyclone Detection and Classification through Visual Analytics using Self-Supervised Learning.**</p>
 
-![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/projects/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
 
 The comprehensive research project is aimed at leveraging self-supervised deep learning techniques to enhance cyclone intensity classification and improve disaster management in the fields of geological and climate sciences. The project will involve the development of advanced Scientific Machine Learning models, and collaboration with the Indian Space Research Organisation (ISRO) to analyze meteorological data. The ultimate goal is to provide accurate predictions, enable effective decision-making, and contribute to scientific advancements in cyclone analysis and disaster mitigation.
 
 The increasing frequency and intensity of cyclonic events demand more accurate and timely predictions to enhance disaster management efforts. This research project aims to utilize the power of ML techniques to improve cyclone intensity classification, cyclone genesis forecast and cyclone tracking, enabling effective mitigation strategies in geological and climate sciences. Collaboration with ISRO will provide access to rich meteorological data for analysis and validation.<br/><br/>
 
+<!-- <div class="project-entry">
+  <div class="project-image">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projects/HV_ADAS_Image.png" alt="ADAS Project Image">
+  </div>
+  <div class="project-description">
+    <p><strong>Examining the Effects of ADAS on Driving Behaviour Under Indian Driving Conditions.</strong></p>
+    <p>The usefulness of ADAS or advanced driver warning systems under Heterogenous Disordered Traffic (HDT) conditions is still not well understood in scientific literature. Too many ADAS warnings can have detrimental effects on drivers' behaviour, particularly when driving larger vehicles (like buses) under densely packed HDT conditions, like on Indian roads. This work will allow us to optimize ADAS for Indian drivers and traffic conditions, reducing driver fatigue and making the drivers more aware of their surroundings, thus improving the overall road safety of bus drivers. For BMTC (Bangalore Metropolitan Transport Corporation), this will allow them to understand the best ADAS warnings and modalities for their bus drivers.</p>
+  </div>
+</div> -->
+
 <p>**Examining the Effects of ADAS on Driving Behaviour Under Indian Driving Conditions.**</p>
 
-![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
+![]({{ site.url }}{{ site.baseurl }}\images\projects\HV_ADAS_Image.png){: style="width: 250px; float: left; margin: 0px  10px"}
 
-The usefulness of ADAS or advanced driver warning systems under Heterogenous Disordered Trafiic (HDT) conditions is still not well understood in scientific literature. Too many ADAS warnings can have detrimental effects on drivers' behaviour, particularly when driving larger vehicles (like buses) under densely packed HDT conditions, like on Indian roads. This work will allow us to optimize ADAS for Indian driversand trafiic conditions, reducing driver fatigue and making the drivers more aware of their surroundings, thus improving the overall road safety of bus drivers. For BMTC (Bangalore Metropolitan Transport Corporation), this will allow them to understand the best ADAS warnings and modalities for their bus drivers.<br/><br/><br/><br/><br/>
+The usefulness of ADAS or advanced driver warning systems under Heterogenous Disordered Trafiic (HDT) conditions is still not well understood in scientific literature. Too many ADAS warnings can have detrimental effects on drivers' behaviour, particularly when driving larger vehicles (like buses) under densely packed HDT conditions, like on Indian roads. This work will allow us to optimize ADAS for Indian driversand trafiic conditions, reducing driver fatigue and making the drivers more aware of their surroundings, thus improving the overall road safety of bus drivers. For BMTC (Bangalore Metropolitan Transport Corporation), this will allow them to understand the best ADAS warnings and modalities for their bus drivers.<br/><br/><br/>
 
 <p>**Development of an Integrated Trafiic and Heavy Vehicle Simulator (ITHVS) for Driver Behaviour and Safety Research in India.**</p>
 
-![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
+![]({{ site.url }}{{ site.baseurl }}\images\projects\ITHVS_Image.jpg){: style="width: 250px; float: left; margin: 0px  10px"}
 
-Simulators are recognised as effective tools for driver training around the globe. The proposed advanced Heavy Vehicle (HV) driving simulator can also be utilised for the same. Notably, features such as the realistic representation of Indian trafiic conditions, seamless two-way interaction, and capability to design and test scenarios concerned with intelligent transport systems that most current HV driving simulators lack will offer unprecedented oppotunities for realistic training for the BMTC drivers.
+Simulators are recognised as effective tools for driver training around the globe. The proposed advanced Heavy Vehicle (HV) driving simulator can also be utilised for the same. Notably, features such as the realistic representation of Indian trafiic conditions, seamless two-way interaction, and capability to design and test scenarios concerned with intelligent transport systems that most current HV driving simulators lack will offer unprecedented oppotunities for realistic training for the BMTC drivers.<br/><br/><br/><br/><br/>
 
-<!-- **Scanning tunneling noise spectroscopy (STNS).** We have developed a novel cryogenic MHz amplifier that allows us to measure not only the average tunneling current, but also its fluctuation! This has many applications: one can detect the fluctuations of the electronic states, peculiar tunneling processes, and shot noise. We have used this instrument to discover charge trapping in the insulating layer of the cuprates, connected to the c-axis mystery, and to measure the doubling of the charge due to Andreev processes to the superfluid in a lead sample.
+<p>**Deep Clustering based on Self-Supervised Learning for Visual Cluster Structure Assessment (funded by SERB, 2023-2025)**</p>
 
+![]({{ site.url }}{{ site.baseurl }}\images\projects\ITHVS_Image.jpg){: style="width: 250px; float: left; margin: 0px  10px"}
 
-**Mott physics and high-temperature superconductivity.** Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? We have worked on iridates, rhodates, and cuprates. -->
+Clustering is an important unsupervised learning approach for (unlabeled) data mining that partitions the data into groups with similar objects to discover interesting patterns from the dataset. Deep learning-based clustering techniques have recently gained popularity due to their ability to handle complex high-dimensional data. However, these algorithms have limitations, such as the need to specify the number of clusters explicitly beforehand, the lack of information about the inherent cluster structure of datapoints, and difficulties in interpreting the neural network's predictions. To overcome these limitations, researchers have used visual assessment of clustering tendency (VAT) methods to estimate the number of clusters present in data. However, these methods are not practical and are often inconclusive with high-dimensional datasets which is the case in most real-life data. Therefore, this project aims to develop an explainable, self-supervised learning-based visual-analytical framework for cluster structure assessment to discover the deep structures present in complex, high-dimensional data when no ground truths are available.<br/><br/><br/>
 
-<!-- **Nanofabricated "Smart Tips"**.
-![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/cyclone.png){: style="width: 250px; float: left; margin: 0px  10px"}
-One of the  projects back from my job-proposal is to develop nanofabricated STM tips. The idea behind these “smart tips” is to use the technologies that were developed over decades in nanofabrication and make them available for scanning probe by using a nano-device instead of the traditional STM tungsten tip. One gains the flexibility of using different functionalities that are known from the fields of nanofabrication and mesoscopic physics. We are collaborating with the group Simon Groeblacher at TU Delft to realize this concept, benefitting from their unparalleled micro/nano fabrication know how.  A prototype of a smart tip is shown to the left. See publications in Microsyst Nanoeng, Nanotechnology, and PRB. -->
+<p>**ML-based automotive intrusion detection and prevention system (funded by Tata Elxsi, 2023-2025)**</p>
 
-<!-- **Josephson STM.** Josephson STM has the ability to gain insight into spatial variations of the order parameter, or superfluid density. We have managed to, for the first time, use JSTM with atomic resolution on a quantum material.
-We have used atomic-resolution Josephson scanning tunneling microscopy to reveal a strongly inhomogeneous superfluid in the iron-based superconductor FeTe0.55Se0.45. The results and their implications are published in Nature.
+![]({{ site.url }}{{ site.baseurl }}\images\projects\ITHVS_Image.jpg){: style="width: 250px; float: left; margin: 0px  10px"}
 
-We also detected and investigated a quite particular YSR state in the same material.
+Modern automobile systems are integrated with advanced communication and computational capabilities, and as a result, they come with many advanced features. However, these advancements render the automobile systems more prone to cyber-attacks. This project focuses on developing unsupervised learning technique on edge device (ECU) to detect and prevent attacks by monitoring the CAN bus traffic data in a car.<br/><br/><br/><br/><br/>
 
-**Ultra-stable SI-STM instrument.**  ![]({{ site.url }}{{ site.baseurl }}/images/respic/STMHead.png){: style="width: 250px; float: right; margin: 0px 10px"}
-For SI-STM, having the most stable STM head is key. We have used finite element simulations, good choices in material science, and craftsmanship to build the most stable STM head in the world, to our knowledge. See publication in RSI.
+<p>**Development of an Unsupervised Learning-based Model for Cyber-attack detection in Power Grids (funded by Power Grid Centre of Excellence (PGCoE), 2023-2025)**</p>
 
+![]({{ site.url }}{{ site.baseurl }}\images\projects\ITHVS_Image.jpg){: style="width: 250px; float: left; margin: 0px  10px"}
 
-**Strange Metals.** The strange metal phase might be the most mysterious phase of high-temperature superconductors. Here, the electrical resistivity grows linearly with temperature T in large areas of the phase diagram, with a mean free path that diminishes to a fraction of the interatomic distance. T-linear resistivity is often associated with quantum critical points and marginal-Fermi-liquid physics. In strange metals, the mystery seems to go even further: we deal with something that looks like a quantum critical phase over an extended range of the phase diagram instead of cumulating in a point. There exists no consistent theory for strange metals, leading to more adventurous new approaches including the holographic theories that use insights from gravity to explain strange metals (a recent textbook on this was written by our colleagues at Leiden University, Schalm and Zaanen).
-We are part of the 'Strange Metal consortium NL' that includes the groups of Hussey, Golden, van Heumen, Zaanen, Schalm, Stoof and Vandoren. 
+The project aims to develop an advanced Machine Learning (ML)-based Intrusion Detection System (IDS) to safeguard power grids in India against cyber-attacks. Given the increasing vulnerability of modern power grids due to the integration of computing and communication (CC) devices, the project will focus on devising unsupervised learning models capable of detecting anomalies across various communication protocols. By leveraging state-of-the-art techniques like isolation forest, one-class support vector machine (OCSVM), and autoencoders, the project seeks to enhance the specificity and sensitivity of the detection system. The research involves extensive data analysis using open datasets and synthetic data generation from power grid simulators. The developed models will be evaluated using standard metrics and deployed over GPU-accelerated computing platforms for real-time monitoring. Ultimately, the project's goal is to create a robust and adaptive solution that can effectively detect and prevent cyber threats in the Indian power grid, making it more resilient to dynamic and sophisticated attacks.<br/><br/><br/>
 
-**Magnetic fluctuations and electron spin resonance.**
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SpinFluc.png){: style="width: 70%; float: center; margin: 10px"}
+<p>**Simultaneous optimization towards smooth traffic flow in an Urban environment (funded by BEL India, 2023-2025)**</p>
 
-**Twisted bilayer graphene and other material with super-periodicities.**
-We have proposed that artificial super-periodicities can lead to improved superconductivity, both because of increased density of states and because of phase space arguments (see image from our SciPost publication below). Perhaps for different reasons, twisted bilayer graphene has been shown to superconduct! We are investigate this material with the groups of Efetov, Baumberger, and van der Molen.
+![]({{ site.url }}{{ site.baseurl }}\images\projects\ITHVS_Image.jpg){: style="width: 250px; float: left; margin: 0px  10px"}
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"} -->
+In the era of rapid urbanization driving globalization, the emphasis on smart cities has become central to this process. India, as a developing nation, is poised to construct a significant number of smart cities. However, the pressing challenge remains in designing and implementing an intelligent traffic management system, particularly in densely populated and chaotic traffic scenarios like those in India. The escalating traffic congestion, fuel consumption, and economic losses have underscored the urgent need for an efficient traffic control paradigm. Traditional traffic control methods with signal transitions have proven inadequate, necessitating a paradigm shift towards an automated traffic management system. Considering these aspects, this project aims to develop an innovative data-driven traffic control solution for a selected Indian city, targeting around 40 to 50 major traffic intersections, with the primary objective of ensuring a seamless and optimized traffic flow.<br/><br/><br/><br/>
+
+<p>**Video Analytics Using Unmanned Aerial Vehicles for Miscellaneous Object Detection Applications (funded by BEL India, 2023-2025)**</p>
+
+![]({{ site.url }}{{ site.baseurl }}\images\projects\ITHVS_Image.jpg){: style="width: 250px; float: left; margin: 0px  10px"}
+
+The project aims to leverage the capabilities of Unmanned Aerial Vehicles (UAVs) to create an automated surveillance system. Drones, equipped with high-resolution cameras and AI software, will be used for accurate object detection and tracking, including vehicles and people, even under challenging conditions such as partial occlusion and varied viewpoints. The project specifically targets two critical objectives: (i) real-time tracking of vehicles and individuals on roads and (ii) precise estimation of vehicle queue lengths in dense traffic. Emphasis will be placed on developing efficient algorithms for embedded systems, ensuring optimal performance without overloading the UAV's hardware. By addressing these challenges, the project seeks to contribute to the advancement of effective UAV-based surveillance systems for diverse applications, including traffic monitoring and security.<br/>
+
+<!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"} -->
 
 <br><br/><br/><br/><br/><br/><br/>
 <!-- ### ... and more. -->
